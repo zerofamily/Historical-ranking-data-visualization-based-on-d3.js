@@ -9,7 +9,7 @@
   encoding: "UTF-8",
 
   // 每个时间节点最多显示的条目数。
-  max_number: 20,
+  max_number: 25,
 
   // 控制是否显示顶部附加信息文字。
   showMessage: true,
@@ -30,7 +30,7 @@
   reverse: false,
 
   // 类型根据什么字段区分？如果是name，则关闭类型显示
-  divide_by: "type",
+  divide_by: "name",
 
   // 颜色根据什么字段区分？
   divide_color_by: "name",
@@ -53,17 +53,17 @@
 
   // 附加信息内容。
   // left label
-  itemLabel: "左侧文字",
+  itemLabel: "粉丝排行榜",
 
   // right label
-  typeLabel: "右侧文字",
+  typeLabel: "2020/04/01 - 2020-04/30",
 
   // 榜首项目信息的水平位置 。
   // Top item information horizontal location
-  item_x: 250,
+  item_x: 300,
 
   // 时间点间隔时间。
-  interval_time: 1,
+  interval_time: 2,
 
   // 上方文字水平高度。
   text_y: -50,
@@ -152,11 +152,11 @@
   // 图片路径，本地图片或者网上图片。
   // 也可在imgs.js中配置。
   imgs: {
-    item:
-      "http://i1.hdslb.com/bfs/face/983034448f81f45f05956d0455a86fe0639d6a36.jpg",
-    条目:
-      "http://i1.hdslb.com/bfs/face/983034448f81f45f05956d0455a86fe0639d6a36.jpg",
-    任意名称: "path/to/img"
+    // item:
+    //   "http://i1.hdslb.com/bfs/face/983034448f81f45f05956d0455a86fe0639d6a36.jpg",
+    // 条目:
+    //   "http://i1.hdslb.com/bfs/face/983034448f81f45f05956d0455a86fe0639d6a36.jpg",
+    // 任意名称: "path/to/img"
   },
 
   // 全局背景颜色
